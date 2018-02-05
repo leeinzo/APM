@@ -13,7 +13,7 @@ export class ProductListComponent implements OnInit {
   showImage: boolean = false;
   errorMessage: string;
   
-  _listFilter: string = 'cart';
+  _listFilter: string;
   get listFilter(): string {
       return this._listFilter;
   }
